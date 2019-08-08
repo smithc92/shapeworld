@@ -19,6 +19,8 @@ namespace ShapeWorld.Client
           //Rectangle someRectangle = new Rectangle() as Square;
           //someRectangle someRectangle2 = (Shape) new Rectangle(); <-- Can't do this, shape is abstract
           
+          Shape someCube = new Cube();
+
           someSquare.Length = 10;
           someSquare.Width = 100;
 
